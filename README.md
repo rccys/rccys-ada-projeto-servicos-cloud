@@ -52,7 +52,7 @@ docker run -it --rm --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-sta
 ```BASH
 # abra um terminal e excute o comando abaixo:
 # Minio
-docker run -p 9000:9000 -p 9001:9001 quay.io/minio/minio server /data --console-address ":9001"
+docker run --rm -p 9000:9000 -p 9001:9001 quay.io/minio/minio server /data --console-address ":9001"
 ```
 [acessar interface](http://localhost:9001)
 user: minioadmin
