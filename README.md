@@ -1,10 +1,11 @@
 # Como executar o projeto
 Execute os passos abaixo em ordem sequencial.
 
-
+Faça o download do projeto ou um git pull
 
 ## Ferramentas que devem ser instaladas
 [Docker]https://www.docker.com/products/docker-desktop/
+
 [Python3]https://www.python.org/downloads/
 
 ## Python dependencies
