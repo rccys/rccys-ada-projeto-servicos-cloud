@@ -1,18 +1,19 @@
 # Como executar o projeto
 Execute os passos abaixo em ordem sequencial.
 
-Faça o download do projeto ou um git pull
+Faça o download do projeto ou um git pull.
 
 ## Ferramentas que devem ser instaladas
 [Docker]https://www.docker.com/products/docker-desktop/
 
 [Python3]https://www.python.org/downloads/
 
+[pip]https://pip.pypa.io/en/stable/installation/
+
 ## Python dependencies
   
 ```BASH
 # é necessário ter o pip instalado
-https://pip.pypa.io/en/stable/installation/
 
 # abra um terminal e excute as instalções abaixo:
 
@@ -61,10 +62,10 @@ password: minioadmin
 ```BASH
 # Abra um terminal, navegue até a pasta onde foi realizado o dowloand do projeto.
 # Abra um segundo terminal, navegue até a pasta onde foi realizado o dowloand do projeto.
-# No primeiro terminal execute o código abaixo
+# No primeiro terminal execute o código abaixo:
 python fraud_detector_consumer.py
 
-# No segundo terminal excute o código abaixo
+# No segundo terminal excute o código abaixo:
 python transaction_producer.py
 
 ```
