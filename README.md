@@ -3,6 +3,11 @@ Execute os passos abaixo em ordem sequencial.
 
 Faça o download do projeto ou um git pull.
 
+## Definição de Fraude
+Se houve transação em outro estado em menos de uma hora, sidnifica que ocorreu fraude.
+
+Obs.: se for identificada um fraude a transação fraudulenta não será enviada para o cache, isso evita que transações válidas sejam consideradas como fraudulentas, pois a comparação entre os estados onde foram realizadas as transações teria o estado onde ocorreu a fraude devido à consulta ao cache.
+
 ## Ferramentas que devem ser instaladas
 [Docker]https://www.docker.com/products/docker-desktop/
 
